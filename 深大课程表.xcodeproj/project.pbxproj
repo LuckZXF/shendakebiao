@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B011032A1C041EA80037BC45 /* coursepingjiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01103291C041EA80037BC45 /* coursepingjiaViewController.swift */; };
+		B0191A861C05B3F400EEB5E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0191A851C05B3F400EEB5E4 /* icon.png */; };
+		B0191A891C06AD2800EEB5E4 /* tabbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = B0191A871C06AD2800EEB5E4 /* tabbar2.png */; };
+		B0191A8A1C06AD2800EEB5E4 /* tabbar22.png in Resources */ = {isa = PBXBuildFile; fileRef = B0191A881C06AD2800EEB5E4 /* tabbar22.png */; };
+		B0191A8D1C06DD9E00EEB5E4 /* GuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0191A8C1C06DD9E00EEB5E4 /* GuideVC.swift */; };
+		B02FEC5F1C02BB30000C6B15 /* coursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02FEC5E1C02BB30000C6B15 /* coursesViewController.swift */; };
+		B02FEC621C0306A0000C6B15 /* addcourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02FEC611C0306A0000C6B15 /* addcourseViewController.swift */; };
+		B02FEC641C0311F3000C6B15 /* courseobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02FEC631C0311F3000C6B15 /* courseobject.swift */; };
+		B035BC791BFED90E00237F5A /* Personmsgitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035BC781BFED90E00237F5A /* Personmsgitem.swift */; };
+		B0449F251BF4E72C004180D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F241BF4E72C004180D1 /* AppDelegate.swift */; };
+		B0449F271BF4E72C004180D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F261BF4E72C004180D1 /* ViewController.swift */; };
+		B0449F2C1BF4E72C004180D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0449F2B1BF4E72C004180D1 /* Assets.xcassets */; };
+		B0449F2F1BF4E72C004180D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0449F2D1BF4E72C004180D1 /* LaunchScreen.storyboard */; };
+		B0449F3A1BF4E72C004180D1 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F391BF4E72C004180D1 /* _____Tests.swift */; };
+		B0449F451BF4E72C004180D1 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F441BF4E72C004180D1 /* _____UITests.swift */; };
+		B0449F7B1BF4E898004180D1 /* SKScNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F731BF4E898004180D1 /* SKScNavViewController.swift */; };
+		B0449F7C1BF4E898004180D1 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0449F751BF4E898004180D1 /* arrow@3x.png */; };
+		B0449F7D1BF4E898004180D1 /* SKMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F761BF4E898004180D1 /* SKMacros.swift */; };
+		B0449F7E1BF4E898004180D1 /* SKLaunchMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F781BF4E898004180D1 /* SKLaunchMenu.swift */; };
+		B0449F7F1BF4E898004180D1 /* SKLaunchMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F791BF4E898004180D1 /* SKLaunchMenuItem.swift */; };
+		B0449F801BF4E898004180D1 /* SKScNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F7A1BF4E898004180D1 /* SKScNavBar.swift */; };
+		B0449F821BF71DCA004180D1 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F811BF71DCA004180D1 /* mainViewController.swift */; };
+		B0449F871BFAB9DB004180D1 /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F841BFAB9DB004180D1 /* MainItem.swift */; };
+		B0449F881BFAB9DB004180D1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F851BFAB9DB004180D1 /* DataModel.swift */; };
+		B0449F891BFAB9DB004180D1 /* MainListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F861BFAB9DB004180D1 /* MainListController.swift */; };
+		B0449F8D1BFAB9F3004180D1 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F8A1BFAB9F3004180D1 /* MainController.swift */; };
+		B0449F8E1BFAB9F3004180D1 /* AllListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F8B1BFAB9F3004180D1 /* AllListViewController.swift */; };
+		B0449F8F1BFAB9F3004180D1 /* iconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F8C1BFAB9F3004180D1 /* iconPickerViewController.swift */; };
+		B0449F911BFABA27004180D1 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F901BFABA27004180D1 /* ListDetailViewController.swift */; };
+		B0449F931BFABA3B004180D1 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F921BFABA3B004180D1 /* Checklist.swift */; };
+		B0449F991BFABB65004180D1 /* personalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449F981BFABB65004180D1 /* personalView.swift */; };
+		B0449F9C1BFABD51004180D1 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = B0449F9B1BFABD51004180D1 /* my.png */; };
+		B0449F9F1BFADEE7004180D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0449F9D1BFADEE7004180D1 /* Main.storyboard */; };
+		B0449FA11BFC56D6004180D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449FA01BFC56D6004180D1 /* LoginViewController.swift */; };
+		B0449FA41BFC5BB8004180D1 /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0449FA31BFC5BB8004180D1 /* login.jpg */; };
+		B0449FAE1BFC62B9004180D1 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0449FA71BFC62B9004180D1 /* TPKeyboardAvoidingCollectionView.m */; };
+		B0449FAF1BFC62B9004180D1 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0449FA91BFC62B9004180D1 /* TPKeyboardAvoidingScrollView.m */; };
+		B0449FB01BFC62B9004180D1 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0449FAB1BFC62B9004180D1 /* TPKeyboardAvoidingTableView.m */; };
+		B0449FB11BFC62B9004180D1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0449FAD1BFC62B9004180D1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		B0449FB71BFC9EE7004180D1 /* DeformationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449FB41BFC9EE7004180D1 /* DeformationButton.swift */; };
+		B0449FB81BFC9EE7004180D1 /* MozMaterialDesignSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449FB61BFC9EE7004180D1 /* MozMaterialDesignSpinner.swift */; };
+		B0449FBA1BFC9F73004180D1 /* 微博logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0449FB91BFC9F73004180D1 /* 微博logo@2x.png */; };
+		B0449FBD1BFD6695004180D1 /* WholeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0449FBC1BFD6695004180D1 /* WholeItem.swift */; };
+		B0B57CC41BFEFAA900947D7A /* PersonmsgData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B57CC31BFEFAA900947D7A /* PersonmsgData.swift */; };
+		FB735F8B1424B50447AE4789 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D60C60C16BCEE9213406280 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0449F361BF4E72C004180D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0449F191BF4E72C004180D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0449F201BF4E72C004180D1;
+			remoteInfo = "深大课程表";
+		};
+		B0449F411BF4E72C004180D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0449F191BF4E72C004180D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0449F201BF4E72C004180D1;
+			remoteInfo = "深大课程表";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D60C60C16BCEE9213406280 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EE4F135683DA0FF73975F6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B01103291C041EA80037BC45 /* coursepingjiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coursepingjiaViewController.swift; sourceTree = "<group>"; };
+		B0191A851C05B3F400EEB5E4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B0191A871C06AD2800EEB5E4 /* tabbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar2.png; sourceTree = "<group>"; };
+		B0191A881C06AD2800EEB5E4 /* tabbar22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar22.png; sourceTree = "<group>"; };
+		B0191A8C1C06DD9E00EEB5E4 /* GuideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideVC.swift; sourceTree = "<group>"; };
+		B02FEC5E1C02BB30000C6B15 /* coursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coursesViewController.swift; sourceTree = "<group>"; };
+		B02FEC611C0306A0000C6B15 /* addcourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addcourseViewController.swift; sourceTree = "<group>"; };
+		B02FEC631C0311F3000C6B15 /* courseobject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = courseobject.swift; sourceTree = "<group>"; };
+		B035BC781BFED90E00237F5A /* Personmsgitem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personmsgitem.swift; sourceTree = "<group>"; };
+		B0449F211BF4E72C004180D1 /* 深大课程表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "深大课程表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0449F241BF4E72C004180D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0449F261BF4E72C004180D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0449F2B1BF4E72C004180D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0449F2E1BF4E72C004180D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0449F301BF4E72C004180D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0449F351BF4E72C004180D1 /* 深大课程表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "深大课程表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0449F391BF4E72C004180D1 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		B0449F3B1BF4E72C004180D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0449F401BF4E72C004180D1 /* 深大课程表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "深大课程表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0449F441BF4E72C004180D1 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		B0449F461BF4E72C004180D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0449F731BF4E898004180D1 /* SKScNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKScNavViewController.swift; sourceTree = "<group>"; };
+		B0449F751BF4E898004180D1 /* arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@3x.png"; sourceTree = "<group>"; };
+		B0449F761BF4E898004180D1 /* SKMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMacros.swift; sourceTree = "<group>"; };
+		B0449F781BF4E898004180D1 /* SKLaunchMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKLaunchMenu.swift; sourceTree = "<group>"; };
+		B0449F791BF4E898004180D1 /* SKLaunchMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKLaunchMenuItem.swift; sourceTree = "<group>"; };
+		B0449F7A1BF4E898004180D1 /* SKScNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKScNavBar.swift; sourceTree = "<group>"; };
+		B0449F811BF71DCA004180D1 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		B0449F841BFAB9DB004180D1 /* MainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
+		B0449F851BFAB9DB004180D1 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		B0449F861BFAB9DB004180D1 /* MainListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListController.swift; sourceTree = "<group>"; };
+		B0449F8A1BFAB9F3004180D1 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		B0449F8B1BFAB9F3004180D1 /* AllListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListViewController.swift; sourceTree = "<group>"; };
+		B0449F8C1BFAB9F3004180D1 /* iconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iconPickerViewController.swift; sourceTree = "<group>"; };
+		B0449F901BFABA27004180D1 /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		B0449F921BFABA3B004180D1 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		B0449F961BFABAD4004180D1 /* 深大课程表-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "深大课程表-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B0449F981BFABB65004180D1 /* personalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personalView.swift; sourceTree = "<group>"; };
+		B0449F9B1BFABD51004180D1 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my.png; sourceTree = "<group>"; };
+		B0449F9E1BFADEE7004180D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "深大课程表/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		B0449FA01BFC56D6004180D1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B0449FA31BFC5BB8004180D1 /* login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login.jpg; sourceTree = "<group>"; };
+		B0449FA61BFC62B9004180D1 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		B0449FA71BFC62B9004180D1 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		B0449FA81BFC62B9004180D1 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		B0449FA91BFC62B9004180D1 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		B0449FAA1BFC62B9004180D1 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		B0449FAB1BFC62B9004180D1 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		B0449FAC1BFC62B9004180D1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		B0449FAD1BFC62B9004180D1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		B0449FB41BFC9EE7004180D1 /* DeformationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeformationButton.swift; sourceTree = "<group>"; };
+		B0449FB61BFC9EE7004180D1 /* MozMaterialDesignSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MozMaterialDesignSpinner.swift; sourceTree = "<group>"; };
+		B0449FB91BFC9F73004180D1 /* 微博logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微博logo@2x.png"; sourceTree = "<group>"; };
+		B0449FBC1BFD6695004180D1 /* WholeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WholeItem.swift; sourceTree = "<group>"; };
+		B0B57CC31BFEFAA900947D7A /* PersonmsgData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonmsgData.swift; sourceTree = "<group>"; };
+		DC8123F302D0B99703A6ABC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0449F1E1BF4E72C004180D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB735F8B1424B50447AE4789 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0449F321BF4E72C004180D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0449F3D1BF4E72C004180D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A316F378FAA156B3FB8FAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D60C60C16BCEE9213406280 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0191A8B1C06DD7B00EEB5E4 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				B0191A8C1C06DD9E00EEB5E4 /* GuideVC.swift */,
+			);
+			name = "引导页";
+			sourceTree = "<group>";
+		};
+		B02FEC601C03067D000C6B15 /* 课程评价 */ = {
+			isa = PBXGroup;
+			children = (
+				B02FEC611C0306A0000C6B15 /* addcourseViewController.swift */,
+				B02FEC631C0311F3000C6B15 /* courseobject.swift */,
+				B01103291C041EA80037BC45 /* coursepingjiaViewController.swift */,
+			);
+			name = "课程评价";
+			sourceTree = "<group>";
+		};
+		B0449F181BF4E72C004180D1 = {
+			isa = PBXGroup;
+			children = (
+				B0449F231BF4E72C004180D1 /* 深大课程表 */,
+				B0449F381BF4E72C004180D1 /* 深大课程表Tests */,
+				B0449F431BF4E72C004180D1 /* 深大课程表UITests */,
+				B0449F221BF4E72C004180D1 /* Products */,
+				DBFBD1493FA186DC0C7D545F /* Pods */,
+				6A316F378FAA156B3FB8FAE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0449F221BF4E72C004180D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F211BF4E72C004180D1 /* 深大课程表.app */,
+				B0449F351BF4E72C004180D1 /* 深大课程表Tests.xctest */,
+				B0449F401BF4E72C004180D1 /* 深大课程表UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0449F231BF4E72C004180D1 /* 深大课程表 */ = {
+			isa = PBXGroup;
+			children = (
+				B0191A8B1C06DD7B00EEB5E4 /* 引导页 */,
+				B0191A851C05B3F400EEB5E4 /* icon.png */,
+				B02FEC601C03067D000C6B15 /* 课程评价 */,
+				B0449FBB1BFD666A004180D1 /* Whole */,
+				B0449FB21BFC9ECB004180D1 /* Button */,
+				B0449FA51BFC62B9004180D1 /* TPKeyboardAvoiding */,
+				B0449FA21BFC56DF004180D1 /* Login */,
+				B0449F9A1BFABD1E004180D1 /* Images */,
+				B0449F951BFABA99004180D1 /* Weekdays */,
+				B0449F941BFABA61004180D1 /* TabBar */,
+				B0449F831BFAB96B004180D1 /* 备忘推送 */,
+				B0449F711BF4E898004180D1 /* SKScNavBarController */,
+				B0449F241BF4E72C004180D1 /* AppDelegate.swift */,
+				B0449F2B1BF4E72C004180D1 /* Assets.xcassets */,
+				B0449F9D1BFADEE7004180D1 /* Main.storyboard */,
+				B0449F2D1BF4E72C004180D1 /* LaunchScreen.storyboard */,
+				B0449F301BF4E72C004180D1 /* Info.plist */,
+				B0449F961BFABAD4004180D1 /* 深大课程表-Bridging-Header.h */,
+			);
+			path = "深大课程表";
+			sourceTree = "<group>";
+		};
+		B0449F381BF4E72C004180D1 /* 深大课程表Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F391BF4E72C004180D1 /* _____Tests.swift */,
+				B0449F3B1BF4E72C004180D1 /* Info.plist */,
+			);
+			path = "深大课程表Tests";
+			sourceTree = "<group>";
+		};
+		B0449F431BF4E72C004180D1 /* 深大课程表UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F441BF4E72C004180D1 /* _____UITests.swift */,
+				B0449F461BF4E72C004180D1 /* Info.plist */,
+			);
+			path = "深大课程表UITests";
+			sourceTree = "<group>";
+		};
+		B0449F711BF4E898004180D1 /* SKScNavBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F721BF4E898004180D1 /* SKController */,
+				B0449F741BF4E898004180D1 /* SKMacros */,
+				B0449F771BF4E898004180D1 /* SKViews */,
+			);
+			path = SKScNavBarController;
+			sourceTree = "<group>";
+		};
+		B0449F721BF4E898004180D1 /* SKController */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F731BF4E898004180D1 /* SKScNavViewController.swift */,
+			);
+			path = SKController;
+			sourceTree = "<group>";
+		};
+		B0449F741BF4E898004180D1 /* SKMacros */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F751BF4E898004180D1 /* arrow@3x.png */,
+				B0449F761BF4E898004180D1 /* SKMacros.swift */,
+			);
+			path = SKMacros;
+			sourceTree = "<group>";
+		};
+		B0449F771BF4E898004180D1 /* SKViews */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F781BF4E898004180D1 /* SKLaunchMenu.swift */,
+				B0449F791BF4E898004180D1 /* SKLaunchMenuItem.swift */,
+				B0449F7A1BF4E898004180D1 /* SKScNavBar.swift */,
+			);
+			path = SKViews;
+			sourceTree = "<group>";
+		};
+		B0449F831BFAB96B004180D1 /* 备忘推送 */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F921BFABA3B004180D1 /* Checklist.swift */,
+				B0449F901BFABA27004180D1 /* ListDetailViewController.swift */,
+				B0449F8A1BFAB9F3004180D1 /* MainController.swift */,
+				B0449F8B1BFAB9F3004180D1 /* AllListViewController.swift */,
+				B0449F8C1BFAB9F3004180D1 /* iconPickerViewController.swift */,
+				B0449F841BFAB9DB004180D1 /* MainItem.swift */,
+				B0449F851BFAB9DB004180D1 /* DataModel.swift */,
+				B0449F861BFAB9DB004180D1 /* MainListController.swift */,
+			);
+			name = "备忘推送";
+			sourceTree = "<group>";
+		};
+		B0449F941BFABA61004180D1 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F261BF4E72C004180D1 /* ViewController.swift */,
+				B0449F981BFABB65004180D1 /* personalView.swift */,
+				B02FEC5E1C02BB30000C6B15 /* coursesViewController.swift */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		B0449F951BFABA99004180D1 /* Weekdays */ = {
+			isa = PBXGroup;
+			children = (
+				B0449F811BF71DCA004180D1 /* mainViewController.swift */,
+			);
+			name = Weekdays;
+			sourceTree = "<group>";
+		};
+		B0449F9A1BFABD1E004180D1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0191A871C06AD2800EEB5E4 /* tabbar2.png */,
+				B0191A881C06AD2800EEB5E4 /* tabbar22.png */,
+				B0449FB91BFC9F73004180D1 /* 微博logo@2x.png */,
+				B0449FA31BFC5BB8004180D1 /* login.jpg */,
+				B0449F9B1BFABD51004180D1 /* my.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B0449FA21BFC56DF004180D1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B0449FA01BFC56D6004180D1 /* LoginViewController.swift */,
+				B035BC781BFED90E00237F5A /* Personmsgitem.swift */,
+				B0B57CC31BFEFAA900947D7A /* PersonmsgData.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B0449FA51BFC62B9004180D1 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				B0449FA61BFC62B9004180D1 /* TPKeyboardAvoidingCollectionView.h */,
+				B0449FA71BFC62B9004180D1 /* TPKeyboardAvoidingCollectionView.m */,
+				B0449FA81BFC62B9004180D1 /* TPKeyboardAvoidingScrollView.h */,
+				B0449FA91BFC62B9004180D1 /* TPKeyboardAvoidingScrollView.m */,
+				B0449FAA1BFC62B9004180D1 /* TPKeyboardAvoidingTableView.h */,
+				B0449FAB1BFC62B9004180D1 /* TPKeyboardAvoidingTableView.m */,
+				B0449FAC1BFC62B9004180D1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				B0449FAD1BFC62B9004180D1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboardAvoiding;
+			path = "TPKeyboardAvoiding副本";
+			sourceTree = "<group>";
+		};
+		B0449FB21BFC9ECB004180D1 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				B0449FB31BFC9EE7004180D1 /* DeformationButton */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		B0449FB31BFC9EE7004180D1 /* DeformationButton */ = {
+			isa = PBXGroup;
+			children = (
+				B0449FB41BFC9EE7004180D1 /* DeformationButton.swift */,
+				B0449FB51BFC9EE7004180D1 /* MozMaterialDesignSpinner-swift */,
+			);
+			path = DeformationButton;
+			sourceTree = "<group>";
+		};
+		B0449FB51BFC9EE7004180D1 /* MozMaterialDesignSpinner-swift */ = {
+			isa = PBXGroup;
+			children = (
+				B0449FB61BFC9EE7004180D1 /* MozMaterialDesignSpinner.swift */,
+			);
+			path = "MozMaterialDesignSpinner-swift";
+			sourceTree = "<group>";
+		};
+		B0449FBB1BFD666A004180D1 /* Whole */ = {
+			isa = PBXGroup;
+			children = (
+				B0449FBC1BFD6695004180D1 /* WholeItem.swift */,
+			);
+			name = Whole;
+			sourceTree = "<group>";
+		};
+		DBFBD1493FA186DC0C7D545F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC8123F302D0B99703A6ABC7 /* Pods.debug.xcconfig */,
+				60EE4F135683DA0FF73975F6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0449F201BF4E72C004180D1 /* 深大课程表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0449F491BF4E72C004180D1 /* Build configuration list for PBXNativeTarget "深大课程表" */;
+			buildPhases = (
+				AC55C780F62075E8C5A9112A /* Check Pods Manifest.lock */,
+				B0449F1D1BF4E72C004180D1 /* Sources */,
+				B0449F1E1BF4E72C004180D1 /* Frameworks */,
+				B0449F1F1BF4E72C004180D1 /* Resources */,
+				C2BB955D11DC1F50277CEC5E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "深大课程表";
+			productName = "深大课程表";
+			productReference = B0449F211BF4E72C004180D1 /* 深大课程表.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0449F341BF4E72C004180D1 /* 深大课程表Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0449F4C1BF4E72C004180D1 /* Build configuration list for PBXNativeTarget "深大课程表Tests" */;
+			buildPhases = (
+				B0449F311BF4E72C004180D1 /* Sources */,
+				B0449F321BF4E72C004180D1 /* Frameworks */,
+				B0449F331BF4E72C004180D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0449F371BF4E72C004180D1 /* PBXTargetDependency */,
+			);
+			name = "深大课程表Tests";
+			productName = "深大课程表Tests";
+			productReference = B0449F351BF4E72C004180D1 /* 深大课程表Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0449F3F1BF4E72C004180D1 /* 深大课程表UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0449F4F1BF4E72C004180D1 /* Build configuration list for PBXNativeTarget "深大课程表UITests" */;
+			buildPhases = (
+				B0449F3C1BF4E72C004180D1 /* Sources */,
+				B0449F3D1BF4E72C004180D1 /* Frameworks */,
+				B0449F3E1BF4E72C004180D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0449F421BF4E72C004180D1 /* PBXTargetDependency */,
+			);
+			name = "深大课程表UITests";
+			productName = "深大课程表UITests";
+			productReference = B0449F401BF4E72C004180D1 /* 深大课程表UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0449F191BF4E72C004180D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "赵希帆";
+				TargetAttributes = {
+					B0449F201BF4E72C004180D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B0449F341BF4E72C004180D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B0449F201BF4E72C004180D1;
+					};
+					B0449F3F1BF4E72C004180D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B0449F201BF4E72C004180D1;
+					};
+				};
+			};
+			buildConfigurationList = B0449F1C1BF4E72C004180D1 /* Build configuration list for PBXProject "深大课程表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0449F181BF4E72C004180D1;
+			productRefGroup = B0449F221BF4E72C004180D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0449F201BF4E72C004180D1 /* 深大课程表 */,
+				B0449F341BF4E72C004180D1 /* 深大课程表Tests */,
+				B0449F3F1BF4E72C004180D1 /* 深大课程表UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0449F1F1BF4E72C004180D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0449F2F1BF4E72C004180D1 /* LaunchScreen.storyboard in Resources */,
+				B0191A8A1C06AD2800EEB5E4 /* tabbar22.png in Resources */,
+				B0191A891C06AD2800EEB5E4 /* tabbar2.png in Resources */,
+				B0449FA41BFC5BB8004180D1 /* login.jpg in Resources */,
+				B0449F9F1BFADEE7004180D1 /* Main.storyboard in Resources */,
+				B0449F9C1BFABD51004180D1 /* my.png in Resources */,
+				B0449F7C1BF4E898004180D1 /* arrow@3x.png in Resources */,
+				B0449F2C1BF4E72C004180D1 /* Assets.xcassets in Resources */,
+				B0191A861C05B3F400EEB5E4 /* icon.png in Resources */,
+				B0449FBA1BFC9F73004180D1 /* 微博logo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0449F331BF4E72C004180D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0449F3E1BF4E72C004180D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC55C780F62075E8C5A9112A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BB955D11DC1F50277CEC5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0449F1D1BF4E72C004180D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B57CC41BFEFAA900947D7A /* PersonmsgData.swift in Sources */,
+				B0449FA11BFC56D6004180D1 /* LoginViewController.swift in Sources */,
+				B0449FAF1BFC62B9004180D1 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				B0449FAE1BFC62B9004180D1 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				B0449F7D1BF4E898004180D1 /* SKMacros.swift in Sources */,
+				B0449F271BF4E72C004180D1 /* ViewController.swift in Sources */,
+				B0449FBD1BFD6695004180D1 /* WholeItem.swift in Sources */,
+				B0449FB11BFC62B9004180D1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				B0449F7E1BF4E898004180D1 /* SKLaunchMenu.swift in Sources */,
+				B0449F251BF4E72C004180D1 /* AppDelegate.swift in Sources */,
+				B011032A1C041EA80037BC45 /* coursepingjiaViewController.swift in Sources */,
+				B0449F931BFABA3B004180D1 /* Checklist.swift in Sources */,
+				B0449F8D1BFAB9F3004180D1 /* MainController.swift in Sources */,
+				B0449FB01BFC62B9004180D1 /* TPKeyboardAvoidingTableView.m in Sources */,
+				B02FEC5F1C02BB30000C6B15 /* coursesViewController.swift in Sources */,
+				B0191A8D1C06DD9E00EEB5E4 /* GuideVC.swift in Sources */,
+				B0449F891BFAB9DB004180D1 /* MainListController.swift in Sources */,
+				B02FEC621C0306A0000C6B15 /* addcourseViewController.swift in Sources */,
+				B0449F8E1BFAB9F3004180D1 /* AllListViewController.swift in Sources */,
+				B02FEC641C0311F3000C6B15 /* courseobject.swift in Sources */,
+				B0449F7F1BF4E898004180D1 /* SKLaunchMenuItem.swift in Sources */,
+				B0449F881BFAB9DB004180D1 /* DataModel.swift in Sources */,
+				B0449FB81BFC9EE7004180D1 /* MozMaterialDesignSpinner.swift in Sources */,
+				B0449F911BFABA27004180D1 /* ListDetailViewController.swift in Sources */,
+				B0449F871BFAB9DB004180D1 /* MainItem.swift in Sources */,
+				B0449FB71BFC9EE7004180D1 /* DeformationButton.swift in Sources */,
+				B0449F7B1BF4E898004180D1 /* SKScNavViewController.swift in Sources */,
+				B0449F991BFABB65004180D1 /* personalView.swift in Sources */,
+				B0449F801BF4E898004180D1 /* SKScNavBar.swift in Sources */,
+				B0449F821BF71DCA004180D1 /* mainViewController.swift in Sources */,
+				B0449F8F1BFAB9F3004180D1 /* iconPickerViewController.swift in Sources */,
+				B035BC791BFED90E00237F5A /* Personmsgitem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0449F311BF4E72C004180D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0449F3A1BF4E72C004180D1 /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0449F3C1BF4E72C004180D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0449F451BF4E72C004180D1 /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0449F371BF4E72C004180D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0449F201BF4E72C004180D1 /* 深大课程表 */;
+			targetProxy = B0449F361BF4E72C004180D1 /* PBXContainerItemProxy */;
+		};
+		B0449F421BF4E72C004180D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0449F201BF4E72C004180D1 /* 深大课程表 */;
+			targetProxy = B0449F411BF4E72C004180D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0449F2D1BF4E72C004180D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0449F2E1BF4E72C004180D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B0449F9D1BFADEE7004180D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0449F9E1BFADEE7004180D1 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0449F471BF4E72C004180D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0449F481BF4E72C004180D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0449F4A1BF4E72C004180D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8123F302D0B99703A6ABC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "深大课程表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "深大课程表-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0449F4B1BF4E72C004180D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EE4F135683DA0FF73975F6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "深大课程表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "深大课程表-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B0449F4D1BF4E72C004180D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "深大课程表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/深大课程表.app/深大课程表";
+			};
+			name = Debug;
+		};
+		B0449F4E1BF4E72C004180D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "深大课程表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/深大课程表.app/深大课程表";
+			};
+			name = Release;
+		};
+		B0449F501BF4E72C004180D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "深大课程表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "深大课程表";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B0449F511BF4E72C004180D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "深大课程表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zxf.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "深大课程表";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0449F1C1BF4E72C004180D1 /* Build configuration list for PBXProject "深大课程表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0449F471BF4E72C004180D1 /* Debug */,
+				B0449F481BF4E72C004180D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0449F491BF4E72C004180D1 /* Build configuration list for PBXNativeTarget "深大课程表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0449F4A1BF4E72C004180D1 /* Debug */,
+				B0449F4B1BF4E72C004180D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0449F4C1BF4E72C004180D1 /* Build configuration list for PBXNativeTarget "深大课程表Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0449F4D1BF4E72C004180D1 /* Debug */,
+				B0449F4E1BF4E72C004180D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0449F4F1BF4E72C004180D1 /* Build configuration list for PBXNativeTarget "深大课程表UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0449F501BF4E72C004180D1 /* Debug */,
+				B0449F511BF4E72C004180D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0449F191BF4E72C004180D1 /* Project object */;
+}
